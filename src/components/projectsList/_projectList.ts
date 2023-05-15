@@ -8,22 +8,22 @@ interface projectsType {
 type Projects<T> = T[]
 
 export const projects: Projects<projectsType> = [
+  // {
+  //   projectName: 'Hug',
+  //   description: 'Use ChatGPT to relieve your frustration.',
+  //   repoLink: 'https://github.com/Ekarmore/hug',
+  //   previewLink: 'https://hug.ekar.site',
+  // },
   {
-    projectName: 'Hug',
-    description: 'Use ChatGPT to relieve your frustration.',
-    repoLink: 'https://github.com/Ekarmore/hug',
-    previewLink: 'https://hug.ekar.site',
+    projectName: 'MusicPlayer',
+    description: '🎧 自认为还算可以的播放器项目.',
+    repoLink: 'https://github.com/hqchqc/MusicPlayer',
+    previewLink: 'https://music.bagbean.cn/spotting',
   },
   {
-    projectName: 'Aggr',
-    description: 'An aggregated search engine with multiple search engines.',
-    repoLink: 'https://github.com/Ekarmore/Aggr',
-    previewLink: 'https://aggr.ekar.site',
-  },
-  {
-    projectName: 'ekar.site',
-    description: 'The personal website you are browsing at this moment.',
-    repoLink: 'https://github.com/Ekarmore/ekar.site',
-    previewLink: 'https://ekar.site',
+    projectName: 'hqc.site',
+    description: '👀 现在正在看的站点咯.',
+    repoLink: 'https://github.com/hqchqc/hqc.site',
+    previewLink: 'https://bagbean.cn',
   },
 ]
