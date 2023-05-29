@@ -8,7 +8,7 @@ import { allPosts } from './_postsCollection';
       return (
         <div class="grid grid-cols-6 border-t borderBase ">
           <p class="col-span-1 text-sm text-gray-4 dark:text-dark-2 italic pt-4 pb-4 mr-20">
-            {postsCollectionOfYear[0].collection}
+            {postsCollectionOfYear[0]?.collection}
           </p>
           {postsCollectionOfYear.map((post) => {
             return (
