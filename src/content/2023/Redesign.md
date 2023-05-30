@@ -7,4 +7,4 @@ slug: new-space
 description: 没想好写什么
 ---
 
-等到想写的时候再来写
+等到想写的时候再来写 迷茫 emo
